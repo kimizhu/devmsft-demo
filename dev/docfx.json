@@ -16,11 +16,11 @@
     "resource": [
       {
         "files": [
-          "**/*.png",
-          "**/*.jpg"
+          "**"
         ],
         "exclude": [
           "**/obj/**",
+          "**/*.md",
           "dev/**"
         ],
         "src": null,
