@@ -1,0 +1,476 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: black;
+    background: white;
+    min-width: 320px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+body,
+#build > p > a {
+    font-weight: normal;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.resourcelist > div > h2,
+.resourcelist > div > p > a {
+    font-weight: 600;
+    font-family: "Segoe UI Semibold", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#build > h2,
+.resourcelist > div > h3 {
+    font-weight: 300;
+    font-family: "Segoe UI Semilight", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.resourcelist > h1 {
+    font-weight: lighter;
+    font-family: "Segoe UI Light", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+#header {
+    margin: 30px 0;
+    text-align: center;
+}
+
+#header > img {
+    height: 32px;
+}
+
+
+
+#footer {
+    margin: 70px 0 60px 0;
+    padding: 20px 70px;
+    font-size: 10pt;
+}
+
+#footer:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+}
+
+#footer > img {
+    height: 20px;
+}
+
+#footer > div {
+    float: right;
+}
+
+#footer > div > p {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+#footer > div > p > a {
+    color: black;
+}
+
+#footer > div > p > a:link {
+    color: black;
+}
+
+#footer > div > p > a:visited {
+    color: black;
+}
+
+#footer > div > p > a:hover {
+    color: black;
+}
+
+#footer > div > p > a:active {
+     color: black;
+}
+
+
+
+#build {
+    width: 100%;
+    background: url("assets/build.jpg") center no-repeat;
+    background-size: cover;
+    text-align: center;
+    overflow: hidden;
+    color: white;
+}
+
+#build > img {
+    margin: 82px 20px 0 20px;
+    height: 96px;
+}
+
+#build > h2 {
+    margin: 30px auto;
+    padding: 0 50px;
+    font-size: 24pt;
+    max-width: 1000px;
+}
+
+#build > p.watch {
+    margin: 55px 0 80px 0;
+    font-size: 16pt;
+}
+
+#build > p.watch > a {
+    border: 2px solid white;
+    color: white;
+    padding: 10px 35px;
+}
+
+#build > p.watch > a:link {
+    color: white;
+}
+
+#build > p.watch > a:visited {
+    color: white;
+}
+
+#build > p.watch > a:hover {
+    background: white;
+    color: #1f3d49;
+}
+
+#build > p.watch > a:active {
+     background: white;
+     color: #1f3d49;
+}
+
+#build > p.description {
+    margin: 0 50px 50px 50px;
+    font-size: 12pt;
+    opacity: 0.66;
+}
+
+#build > p.description > span {
+    margin: 0 10px;
+}
+
+
+
+.resourcelist {
+    text-align: center;
+}
+
+.resourcelist.primary {
+    margin-top: 85px;
+}
+
+.resourcelist.secondary {
+    margin-top: 120px;
+    padding: 75px 0 90px 0;
+    background: #f7f7f7;
+}
+
+.resourcelist > h1 {
+    font-size: 20pt;
+}
+
+.resourcelist > div {
+    display: inline-block;
+    vertical-align: top;
+    width: 220px;
+    line-height: 20px;
+    margin: 70px 45px 0 45px;
+}
+
+.resourcelist > div > img {
+    height: 48px;
+}
+
+.resourcelist > div > h2 {
+    margin-top: 25px;
+    font-size: 14pt;
+}
+
+.resourcelist.secondary > div > h2 {
+    margin-top: 0;
+}
+
+.resourcelist > div > h3 {
+    margin-top: 9px;
+    font-size: 11pt;
+}
+
+
+
+
+.resourcelist > div > ul {
+    margin-top: 30px;
+    list-style: none;
+}
+
+.resourcelist > div li {
+    font-size: 10pt;
+    margin-top: 20px;
+}
+
+.resourcelist > div li > a {
+    color: black;
+}
+
+.resourcelist > div li > a:link {
+    color: black;
+}
+
+.resourcelist > div li > a:visited {
+    color: black;
+}
+
+.resourcelist > div li > a:hover {
+    color: black;
+}
+
+.resourcelist > div li > a:active {
+     color: black;
+}
+
+#sec-windows {
+    color: #0078d7;
+}
+
+#sec-windows li > a {
+    color: #0078d7;
+}
+
+#sec-windows li > a:link {
+    color: #0078d7;
+}
+
+#sec-windows li > a:visited {
+    color: #0078d7;
+}
+
+#sec-windows li > a:hover {
+    color: #005fbe;
+}
+
+#sec-windows li > a:active {
+    color: #005fbe;
+}
+
+#sec-azure {
+    color: #329fd8;
+}
+
+#sec-azure li > a {
+    color: #329fd8;
+}
+
+#sec-azure li > a:link {
+    color: #329fd8;
+}
+
+#sec-azure li > a:visited {
+    color: #329fd8;
+}
+
+#sec-azure li > a:hover {
+    color: #1986bf;
+}
+
+#sec-azure li > a:active {
+    color: #1986bf;
+}
+
+#sec-vs {
+    color: #5c2e91;
+}
+
+#sec-vs li > a {
+    color: #5c2e91;
+}
+
+#sec-vs li > a:link {
+    color: #5c2e91;
+}
+
+#sec-vs li > a:visited {
+    color: #5c2e91;
+}
+
+#sec-vs li > a:hover {
+    color: #431578;
+}
+
+#sec-vs li > a:active {
+    color: #431578;
+}
+
+#sec-office {
+    color: #dc3c00;
+}
+
+#sec-office li > a {
+    color: #dc3c00;
+}
+
+#sec-office li > a:link {
+    color: #dc3c00;
+}
+
+#sec-office li > a:visited {
+    color: #dc3c00;
+}
+
+#sec-office li > a:hover {
+    color: #c32300;
+}
+
+#sec-office li > a:active {
+    color: #c32300;
+}
+
+
+
+.resourcelist > div > p {
+    margin-top: 30px;
+}
+
+.resourcelist > div > p > a {
+    font-size: 10pt;
+    color: black;
+    border: 1px solid black;
+    padding: 5px 12px 6px 12px;
+}
+
+.resourcelist > div > p > a:link {
+    color: black;
+}
+
+.resourcelist > div > p > a:visited {
+    color: black;
+}
+
+.resourcelist > div > p > a:hover {
+    background: black;
+    color: white;
+}
+
+.resourcelist > div > p > a:active {
+    background: black;
+    color: white;
+}
+
+.resourcelist.secondary > div > p > a:hover {
+    color: #f7f7f7;
+}
+
+.resourcelist.secondary > div > p > a:active {
+    color: #f7f7f7;
+}
+
+
+
+#sec-windows > p > a {
+    color: #0078d7;
+    border-color: #0078d7;
+}
+
+#sec-windows > p > a:link {
+    color: #0078d7;
+    border-color: #0078d7;
+}
+
+#sec-windows > p > a:visited {
+    color: #0078d7;
+    border-color: #0078d7;
+}
+
+#sec-windows > p > a:hover {
+    background: #0078d7;
+    color: white;
+}
+
+#sec-windows > p > a:active {
+    background: #0078d7;
+    color: white;
+}
+
+#sec-azure > p > a {
+    color: #329fd8;
+    border-color: #329fd8;
+}
+
+#sec-azure > p > a:link {
+    color: #329fd8;
+    border-color: #329fd8;
+}
+
+#sec-azure > p > a:visited {
+    color: #329fd8;
+    border-color: #329fd8;
+}
+
+#sec-azure > p > a:hover {
+    background: #329fd8;
+    color: white;
+}
+
+#sec-azure > p > a:active {
+    background: #329fd8;
+    color: white;
+}
+
+#sec-vs > p > a {
+    color: #5c2e91;
+    border-color: #5c2e91;
+}
+
+#sec-vs > p > a:link {
+    color: #5c2e91;
+    border-color: #5c2e91;
+}
+
+#sec-vs > p > a:visited {
+    color: #5c2e91;
+    border-color: #5c2e91;
+}
+
+#sec-vs > p > a:hover {
+    background: #5c2e91;
+    color: white;
+}
+
+#sec-vs > p > a:active {
+    background: #5c2e91;
+    color: white;
+}
+
+#sec-office > p > a {
+    color: #dc3c00;
+    border-color: #dc3c00;
+}
+
+#sec-office > p > a:link {
+    color: #dc3c00;
+    border-color: #dc3c00;
+}
+
+#sec-office > p > a:visited {
+    color: #dc3c00;
+    border-color: #dc3c00;
+}
+
+#sec-office > p > a:hover {
+    background: #dc3c00;
+    color: white;
+}
+
+#sec-office > p > a:active {
+    background: #dc3c00;
+    color: white;
+}
